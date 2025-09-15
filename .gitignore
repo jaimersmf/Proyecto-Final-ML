@@ -1,0 +1,19 @@
+# Entornos virtuales
+.venv*/
+__pycache__/
+*.pyc
+
+# Archivos temporales
+*.log
+*.tmp
+
+# Datos grandes
+data/
+artifacts/
+
+# Modelos (sube solo el final si quieres)
+models/*.pkl
+!models/final_model.pkl
+
+# Configs locales de VS Code
+.vscode/
